@@ -1,0 +1,38 @@
+> // greater than
+< // less than
+=== // equal to. 5 === 5 would be true.
+<= // less than or equal to 
+>= // greater than or equal to
+!== // not equal to. 4 !== 5 would be true.
+
+console.log('How are you?')
+console.log('Did you have a great day?')
+console.log('I am hungry!')
+
+
+let time = 8
+if (time < 12 ) { 
+   console.log('Good Morning!') 
+} else if (time > 12 && time < 17 ) { 
+   console.log('Good Afternoon!') 
+} else if (time > 17) {
+   console.log('Good Evening!')
+} else {
+    console.log('Hello!')
+}
+
+if (5 > 10 || 1 == 1) {
+    console.log('Hello')
+}
+
+// Write a program that prints a message to the screen based on a users age and country.
+
+// Feel free to change these variables or create new ones so you can test all cases.
+const age = 20
+const country = 'USA'
+
+// if the user is younger than 16 print "You're not old enough to do anything yet."
+// if the user is at least 16 but not yet 18 print "Be careful driving."
+// if the user is 18 but not yet 21 and the user lives in the USA pring "Go Vote!"
+// if the user is at least 18 but younger than 21 and lives outside of the US print "You can probably have some wine."
+// In all other cases print "You're old enough to figure it out for yourself."
