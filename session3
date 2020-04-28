@@ -1,0 +1,19 @@
+let user_name = "Peyton"
+const greeting = `Greetings, ${user_name}. Shall we play a game?`
+console.log(greeting) 
+
+var five = "5";
+var four = "4";
+var three = "3";
+var two = "2";
+var one = "1";
+var template5 = `There are ${five} seconds left until liftoff!`
+var template4 = `There are ${four} seconds left until liftoff!`
+var template3 = `There are ${three} seconds left until liftoff!`
+var template2 = `There are ${two} seconds left until liftoff!`
+var template1 = `There are ${one} seconds left until liftoff!`
+var template = `Lift Off!`
+var url = [template5, template4, template3, template2, template1, template].join("\n");
+console.log(url);
+
+Interpolation can be useful in limiting repeating code. Variables can be called and substituted using interpolation.
